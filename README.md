@@ -1,4 +1,4 @@
-# Wirbeobachtenzurueck Antragsgenerator v1.0
+# Wirbeobachtenzurueck.de Antragsgenerator v1.0
 
 ## Über das Projekt
 Der Wirbeobachtenzurueck Antragsgenerator ist ein Tool, das entwickelt wurde, 
