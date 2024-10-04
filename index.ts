@@ -19,7 +19,7 @@ const validateInputs = (data: DataObject) => {
       return false;
     }
   
-    if (data.street.length > 50) {
+    if (data.street.length > 20) {
       alert('Bitte geben Sie eine Straße ein. (maximal 20 Zeichen)');
       return false;
     }
@@ -29,12 +29,12 @@ const validateInputs = (data: DataObject) => {
       return false;
     }
   
-    if (data.city.length > 50) {
+    if (data.city.length > 20) {
       alert('Bitte geben Sie einen Ort (Stadt) ein. (maximal 20 Zeichen)');
       return false;
     }
   
-    if (data.place_of_birth.length > 50) {
+    if (data.place_of_birth.length > 32) {
       alert('Bitte geben Sie einen Geburtsort ein. (maximal 32 Zeichen)');
       return false;
     }
